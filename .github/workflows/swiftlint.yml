@@ -1,11 +1,7 @@
 name: Swiftlint
 
 on:
-  pull_request:
-    paths:
-      - '.swiftlint.yml'
-      - 'Sources/**'
-      - 'Tests/**'
+  workflow_call:
 
 jobs:
   lint:
