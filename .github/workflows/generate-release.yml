@@ -1,9 +1,10 @@
 name: Generate Release
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [main]
+  workflow_call:
+    secrets:
+      GITHUB_TOKEN:
+        required: true
 
 jobs:
   update_release_draft:
