@@ -2,6 +2,10 @@ name: Auto Assign
 
 on:
   workflow_call:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
 
 jobs:
   run:
