@@ -31,7 +31,7 @@ No entanto, a CI é capaz de acusar que os testes estão faltando e que é neces
 
 O projeto está dividido nas seguintes features:
 
-- ![GithubKit](https://github.com/github-brenno-compass/GithubKit)
-- ![GithubUI](https://github.com/github-brenno-compass/GithubUI)
-- ![AuthenticationApp](https://github.com/github-brenno-compass/AuthenticationApp)
-- ![HomeApp](https://github.com/github-brenno-compass/HomeApp)
+- [GithubKit](https://github.com/github-brenno-compass/GithubKit)
+- [GithubUI](https://github.com/github-brenno-compass/GithubUI)
+- [AuthenticationApp](https://github.com/github-brenno-compass/AuthenticationApp)
+- [HomeApp](https://github.com/github-brenno-compass/HomeApp)
