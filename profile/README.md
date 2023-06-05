@@ -1,35 +1,35 @@
 # Compass Github
 
-Olá, seja bem-vindo ao Compass Github Super App.
+Hello, welcome to the Compass Github Super App.
 
-Este documento apresenta todos os repositórios disponíveis para desenvolvimento. Além disso, temos alguns padrões necessários para o desenvolvimento das features. Então, fique atento.
+This document presents all the available repositories for development. Additionally, we have some necessary patterns for feature development. So, stay tuned.
 
-## Repositório
+## Repository
 
 ### Pull Request
 
-Para fazer um Pull Request verifique se seu projeto está seguindo os padrões do Clean Code. Você também pode executar o `swiftlint lint` no seu terminal e corrigir qualquer erro encontrado.
+To make a Pull Request, make sure your project is following the Clean Code standards. You can also run `swiftlint lint` in your terminal and fix any errors found.
 
 ### CI
 
-Os PRs são validados por uma série de Actions implementadas:
+PRs are validated by a series of implemented Actions:
 
 1. Swiftlint
 2. Build
 3. Code coverage tests
 4. Documentation **(Release only)**
 
-### Testes
+### Tests
 
-O projeto foi desenvolvido a partir de um Minimum Viable Project (MVP) que necessitou priorizar a integração do Super App em troca da implementação dos testes.
+The project was developed based on a Minimum Viable Project (MVP), which required prioritizing the integration of the Super App over test implementation.
 
-No entanto, a CI é capaz de acusar que os testes estão faltando e que é necessário implementá-los antes do PR ser aprovado.
+However, the CI can detect when tests are missing and require them to be implemented before the PR is approved.
 
-> Testes de UI não foram pensados para esse projeto. Caso exista discussões futuras, seria interessante utilizar testes de UI baseados em snapshots.
+> UI tests were not considered for this project. If there are future discussions, it would be interesting to use snapshot-based UI tests.
 
 ## Features
 
-O projeto está dividido nas seguintes features:
+The project is divided into the following features:
 
 - [GithubKit](https://github.com/github-brenno-compass/GithubKit)
 - [GithubUI](https://github.com/github-brenno-compass/GithubUI)
